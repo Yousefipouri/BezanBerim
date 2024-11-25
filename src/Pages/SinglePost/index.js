@@ -171,7 +171,7 @@ const SinglePost = () => {
               <p className="mt-5">
                 {post.isNature ? "طبیعت ،" : ""}
                 {post.isReligious ? "مذهبی ،" : ""}
-                {post.isHistorical ? "تاریخی" : ""}
+                {post.isHistorical ? "تاریخی ،" : ""}
                 {post.isIndoor ? "سرپوشیده" : ""}
               </p>
               </div>
