@@ -175,7 +175,7 @@ const SinglePost = () => {
                 {post.isIndoor ? "سرپوشیده" : ""}
               </p>
               </div>
-              <p className="mt-5">{post.description}</p>
+              <p className="mt-5" style={{ whiteSpace: 'pre-wrap' }}>{post.description}</p>
               
               <MapComponent
                 initialLat={lat}
